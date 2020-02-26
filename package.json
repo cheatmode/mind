@@ -1,0 +1,33 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "inputmask": "^4.0.9",
+    "jquery": "^3.4.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "magnific-popup": "^1.1.0",
+    "swiper": "^5.0.4",
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "rimraf": "^3.0.0"
+  }
+}

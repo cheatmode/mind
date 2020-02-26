@@ -1,0 +1,68 @@
+$primary: #8794A5;
+
+$spacer: 10px;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  ),
+  $spacers
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1145px
+);
+$link-hover-decoration: none;
+$font-family-base: 'Montserrat', sans-serif;
+
+$btn-padding-y: 14px;
+$btn-padding-x: 20px;
+$btn-font-size: 18px;
+$btn-line-height: 20px;
+$btn-font-weight: 500;
+
+$btn-border-radius: 5px;
+
+$btn-padding-y-sm: 8px;
+$btn-padding-x-sm: 40px;
+$btn-font-size-sm: 15px;
+
+$btn-border-radius-sm: 100px;
+
+$btn-font-size-lg: 15px;
+
+$btn-border-radius-lg: 100px;
+
+$label-margin-bottom: 10px;
+
+$input-padding-y: 14px;
+$input-padding-x: 1.25rem;
+$input-font-size: 16px;
+$input-font-weight: 500;
+$input-line-height: 1.5;
+
+$input-color: #000;
+$input-bg: #fff;
+$input-border-color: #fff;
+$input-border-radius: 5px;
+
+$input-placeholder-color: #A1AABB;
+
+$input-height: 52px;
+
+$input-btn-focus-color: rgb(109, 140, 226);
+
+$form-group-margin-bottom: 20px;
+
+$modal-header-border-width: 0;
+$modal-footer-border-width: 0; 
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
